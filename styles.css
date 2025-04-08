@@ -1709,6 +1709,7 @@ body {
   color: #eb662b;
 }
 .slider__container{
+  font-family: inter;
   width: 100vw;
   margin: 12px auto;
   overflow: hidden;
