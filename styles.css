@@ -1,0 +1,1819 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  position: relative;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: flex;
+  height: 7798.89px;
+}
+.container {
+  width: 100%;
+  max-width: 1670px;
+  padding: 0 360px;
+  padding-right: 0 300px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 23px;
+}
+.header__navigation {
+  flex-direction: row;
+  display: flex;
+  gap: 40px;
+}
+
+.header__navigation-active {
+  font-family: inter;
+  background: #eb662b;
+  color: white;
+  width: 83px;
+  height: 44px;
+  border-radius: 200px;
+  font-size: 14px;
+  letter-spacing: 0%;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  text-decoration: none;
+}
+.header__navigation-sign {
+  font-family: inter;
+  color: rgb(0, 0, 0);
+  width: 70px;
+  height: 44px;
+  border-radius: 200px;
+  font-size: 15px;
+  letter-spacing: 0%;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header__navigation-usd {
+  font-family: inter;
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: 44px;
+  border-radius: 200px;
+  font-size: 15px;
+  letter-spacing: 0%;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.header__navigation-activities {
+  font-family: inter;
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: 44px;
+  border-radius: 200px;
+  font-size: 15px;
+  letter-spacing: 0%;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  text-decoration: none;
+}
+
+.header__navigation-destinations {
+  font-family: inter;
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: 44px;
+  border-radius: 200px;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 36px;
+}
+.ocean {
+  position: absolute;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 12px;
+  width: 1700px;
+}
+.print {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1850px;
+  margin-top: 680px;
+}
+.Yourwrld {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 630px;
+  margin-top: 270px;
+  font-family: Inter;
+  color: white;
+  font-weight: 600;
+  font-size: 69.73px;
+  line-height: 84px;
+  letter-spacing: 0%;
+  text-decoration: none;
+}
+
+.LocalEsc {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-top: 365px;
+  margin-left: 584px;
+  font-family: Inter;
+  letter-spacing: 0%;
+  font-weight: 400;
+  line-height: 28px;
+  font-size: 15px;
+  color: white;
+}
+.WhereWhen {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-top: 430px;
+  margin-left: 487px;
+  border-radius: 12px;
+  width: 850px;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+}
+
+.obj1 {
+  display: flex;
+  position: flex;
+  background-color: rgb(255, 255, 255);
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  border: 1px solid #e7e6e6;
+  margin-right: 770px;
+}
+.obj2 {
+  display: flex;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  border: 1px solid #e7e6e6;
+  margin-left: 200px;
+}
+.obj3 {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  border: 1px solid #e7e6e6;
+  margin-left: 210px;
+}
+
+.WhereWhen__Where {
+  font-family: inter;
+  font-size: 15px;
+  font-weight: 500;
+  color: #05073c;
+  position: absolute;
+  margin-right: 658px;
+  margin-bottom: 21px;
+  line-height: 24px;
+}
+.WhereWhen__Search-destinations {
+  position: absolute;
+  color: #717171;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400px;
+  margin-top: 16px;
+  margin-right: 592px;
+}
+.WhereWhen_When {
+  position: absolute;
+  display: flex;
+  justify-content: flex;
+  align-items: center;
+  font-family: Inter;
+  font-size: 15px;
+  color: #05073c;
+  margin-right: 263px;
+  margin-bottom: 20px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  font-weight: 500;
+}
+.WhereWhen__Date {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Inter;
+  font-size: 12px;
+  color: #000000;
+  margin-top: 16px;
+  margin-right: 166px;
+}
+.WhereWhen__Type {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 189px;
+  margin-bottom: 20px;
+  font-family: Inter;
+  font-size: 15px;
+  color: #05073c;
+  font-weight: 500;
+}
+.WhereWhen__Alltour {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 160px;
+  margin-top: 16px;
+  font-family: Inter;
+  font-size: 12px;
+}
+.WhereWhen__Search {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-items: center;
+  font-family: inter;
+  background: #eb662b;
+  color: white;
+  width: 140px;
+  height: 60px;
+  border-radius: 12px;
+  font-size: 14px;
+  letter-spacing: 0%;
+  line-height: 28px;
+  margin-left: 675px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  text-decoration: none;
+}
+.WhyChooseTourz {
+  display: flex;
+  width: 1200px;
+  height: 236px;
+  background: rgb(255, 255, 255);
+  margin-top: 840px;
+  margin-left: 250px;
+}
+.ChooseTourz {
+  width: 1320px;
+  height: 296px;
+  color: #05073c;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0%;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.ticket {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-items: center;
+  width: 60px;
+  height: 60px;
+  margin-top: 100px;
+  margin-left: 19px;
+}
+.Ultimate {
+  display: flex;
+  white-space: nowrap;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 153.13999938964844px;
+  height: 27px;
+  color: #05073c;
+  font-family: inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  margin-top: 180px;
+  margin-left: 20px;
+}
+.YourControl {
+  color: #05073c;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 220px;
+  margin-left: 20px;
+}
+.hot-air-balloon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-top: 98px;
+  margin-left: 333px;
+  width: 60px;
+  height: 60px;
+}
+.Memorable {
+  font-family: Inter;
+  font-size: 17.72px;
+  color: #05073c;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  line-height: 27px;
+  margin-top: 180px;
+  margin-left: 343px;
+}
+.Browse {
+  color: #05073c;
+  font-family: Inter;
+  font-weight: 400px;
+  font-size: 14.65px;
+  line-height: 28.13px;
+  font-weight: 400;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-top: 220px;
+  margin-left: 343px;
+}
+.diamond {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 95px;
+  margin-left: 680px;
+  width: 60px;
+  height: 60px;
+}
+.Quality {
+  font-family: Inter;
+  font-size: 17.72px;
+  color: #05073c;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  line-height: 27px;
+  margin-top: 179px;
+  margin-left: 678px;
+}
+.High-Quality {
+  color: #05073c;
+  font-family: Inter;
+  font-weight: 400px;
+  font-size: 14.65px;
+  line-height: 28.13px;
+  font-weight: 400;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-top: 220px;
+  margin-left: 678px;
+}
+.medal {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 95px;
+  margin-left: 980px;
+  width: 60px;
+  height: 60px;
+}
+.Award {
+  font-family: Inter;
+  font-size: 17.72px;
+  color: #05073c;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  line-height: 27px;
+  margin-top: 179px;
+  margin-left: 980px;
+}
+.New-Price {
+  color: #05073c;
+  font-family: Inter;
+  font-weight: 400px;
+  font-size: 14.65px;
+  line-height: 28.13px;
+  font-weight: 400;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-top: 220px;
+  margin-left: 980px;
+}
+.Trending__container {
+  width: 1800px;
+  height: 390px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 150px;
+  margin-top: 200px;
+}
+.Trending__destinations {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #05073c;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 29.88px;
+  line-height: 45px;
+  letter-spacing: 0;
+  margin-left: 120px;
+}
+.paris {
+  width: 135px;
+  height: 130px;
+  border-radius: 132px;
+  margin-top: 0px;
+}
+.Paris__Text {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  color: #05073c;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 17px;
+  margin-left: 47px;
+}
+.Paris__Tours {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  color: #05073c;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 26.25px;
+  margin-top: 40px;
+  margin-left: 32px;
+}
+.singapore {
+  width: 135px;
+  height: 130px;
+  border-radius: 132px;
+  margin-top: 100px;
+  margin-left: 60px;
+}
+.Singapore__Text {
+  color: #05073c;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 18px;
+  margin-left: 235px;
+}
+.Singapore__Tours {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  color: #05073c;
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 40px;
+  line-height: 26.25px;
+  margin-top: 40px;
+  margin-left: 235px;
+}
+.roma {
+  width: 135px;
+  height: 130px;
+  border-radius: 132px;
+  margin-top: 0px;
+  margin-left: 60px;
+}
+.Roma__Text {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  color: #05073c;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24.25px;
+  margin-top: 40px;
+  line-height: 26.25px;
+  margin-top: 15px;
+  margin-left: 443px;
+}
+.Roma__Tours {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #05073c;
+  margin-top: 40px;
+  margin-left: 429px;
+}
+.Bangkok {
+  width: 135px;
+  height: 130px;
+  border-radius: 132px;
+  margin-top: 0px;
+  margin-left: 60px;
+}
+.Bangkok__Text {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  color: #05073c;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24.25px;
+  margin-top: 40px;
+  line-height: 26.25px;
+  margin-top: 15px;
+  margin-left: 633px;
+}
+.Bangkok__Tours {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  color: #05073c;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 40px;
+  margin-left: 630px;
+}
+.Bali {
+  width: 135px;
+  height: 130px;
+  border-radius: 132px;
+  margin-top: 0px;
+  margin-left: 60px;
+}
+.Bali__Text {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  color: #05073c;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24.25px;
+  margin-top: 40px;
+  line-height: 26.25px;
+  margin-top: 15px;
+  margin-left: 846px;
+}
+.Bali__Tours {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  color: #05073c;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 40px;
+  margin-left: 828px;
+}
+.Phuket {
+  width: 135px;
+  height: 130px;
+  border-radius: 132px;
+  margin-top: 0px;
+  margin-left: 60px;
+}
+.Phuket__Text {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  color: #05073c;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24.25px;
+  margin-top: 40px;
+  line-height: 26.25px;
+  margin-top: 15px;
+  margin-left: 1030px;
+}
+.Phuket__Tours {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  color: #05073c;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 40px;
+  margin-left: 1020px;
+}
+.Tokyo {
+  width: 135px;
+  height: 130px;
+  border-radius: 132px;
+  margin-top: 0px;
+  margin-left: 60px;
+}
+.Tokyo__Text {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  color: #05073c;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24.25px;
+  margin-top: 40px;
+  line-height: 26.25px;
+  margin-top: 15px;
+  margin-left: 1230px;
+}
+.Tokyo__Tours {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  color: #05073c;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 40px;
+  margin-left: 1220px;
+}
+.Cappadocia {
+  width: 135px;
+  height: 130px;
+  border-radius: 132px;
+  margin-top: 0px;
+  margin-left: 60px;
+}
+.Cappadocia__Text {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  color: #05073c;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24.25px;
+  margin-top: 40px;
+  line-height: 26.25px;
+  margin-top: 15px;
+  margin-left: 1405px;
+}
+.Cappadocia__Tours {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  color: #05073c;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 40px;
+  margin-left: 1415px;
+}
+.SeeAll__Trending {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: Inter;
+  color: #05073c;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 18px;
+  margin-left: 1420px;
+}
+.Find__Popular__Tours {
+  width: 1320px;
+  height: 940px;
+  margin-left: 210px;
+}
+.Find_Popular_Tour_Text {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0;
+  color: #05073c;
+}
+.Centipede__Tour {
+  position: absolute;
+  width: 300px;
+  height: 388px;
+  margin-top: 40px;
+  border-radius: 12px;
+  border: 1px solid #e7e6e6;
+}
+.Paris_France_Img {
+  width: 278px;
+  height: 198.56px;
+  margin-left: 11.5px;
+  margin-top: 9px;
+}
+.Paris__France {
+  display: flex;
+  margin-left: 40px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24.38px;
+  letter-spacing: 0;
+  color: #717171;
+}
+.Centipede__Text {
+  display: flex;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0;
+  margin-left: 20px;
+  margin-top: 5px;
+  color: #05073c;
+}
+.Centipede__Rating {
+  display: flex;
+  font-family: Inter;
+  font-size: 12.49px;
+  font-weight: 400;
+  line-height: 23.48px;
+  letter-spacing: 0;
+  color: #05073c;
+  margin-left: 100px;
+}
+.Centipede__Border {
+  width: 258px;
+  height: 41px;
+  border-radius: 1px;
+  border-top: 1px solid #e7e6e6;
+  margin-top: 20px;
+  margin-left: 21px;
+}
+.Centipede__Days {
+  display: flex;
+  position: absolute;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24.38px;
+  letter-spacing: 0;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #05073c;
+}
+.Centipede__From {
+  position: absolute;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24.38px;
+  letter-spacing: 0;
+  margin-top: 10px;
+  margin-left: 155px;
+  color: #05073c;
+}
+.Centipede__Price {
+  position: absolute;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24.38px;
+  letter-spacing: 0;
+  margin-top: 10px;
+  margin-left: 190px;
+  color: #05073c;
+}
+.Molokini__Tours {
+  position: absolute;
+  width: 300px;
+  height: 410px;
+  margin-top: 40px;
+  border-radius: 12px;
+  border: 1px solid #e7e6e6;
+  margin-left: 350px;
+}
+.Paris_France_Img {
+  margin-left: 11.5px;
+  margin-top: 9px;
+}
+.Centipede__Text {
+  display: flex;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0;
+  margin-left: 20px;
+  margin-top: 5px;
+  color: #05073c;
+}
+.Westminster__Tours {
+  position: absolute;
+  width: 300px;
+  height: 388px;
+  margin-top: 40px;
+  margin-left: 700px;
+  border-radius: 12px;
+  border: 1px solid #e7e6e6;
+}
+.New_York_Usa__Tours {
+  position: absolute;
+  width: 300px;
+  height: 388px;
+  margin-top: 40px;
+  margin-left: 1050px;
+  border-radius: 12px;
+  border: 1px solid #e7e6e6;
+}
+.Paris__France__Space {
+  position: absolute;
+  width: 300px;
+  height: 388px;
+  margin-top: 460px;
+  border-radius: 12px;
+  border: 1px solid #e7e6e6;
+}
+.New_York__Kayak {
+  position: absolute;
+  width: 300px;
+  height: 388px;
+  margin-top: 460px;
+  margin-left: 350px;
+  border-radius: 12px;
+  border: 1px solid #e7e6e6;
+}
+.London__Uk_History {
+  position: absolute;
+  width: 300px;
+  height: 388px;
+  margin-top: 460px;
+  margin-left: 700px;
+  border-radius: 12px;
+  border: 1px solid #e7e6e6;
+}
+.New_York_Mauna {
+  position: absolute;
+  width: 300px;
+  height: 388px;
+  margin-top: 460px;
+  margin-left: 1050px;
+  border-radius: 12px;
+  border: 1px solid #e7e6e6;
+}
+.Grab_Up {
+  border-radius: 12px;
+  border: 1px solid #ffff;
+  margin-top: 200px;
+  width: 1530px;
+  height: 606px;
+  margin-left: 100px;
+}
+.Grab_Up_Text {
+  position: absolute;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  margin-top: 190px;
+  margin-left: 110px;
+  color: #05073c;
+}
+.Grab_Up_Span {
+  color: #eb662b;
+}
+.Grab_Up_Limited {
+  position: absolute;
+  display: flex;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28, 13px;
+  letter-spacing: 0;
+  margin-left: 110px;
+  margin-top: 360px;
+  color: #05073c;
+}
+.Shape {
+  position: absolute;
+  width: 40px;
+  height: 606px;
+  margin-left: 800px;
+}
+.Shape1 {
+  width: 750px;
+  height: 606px;
+  margin-left: 800px;
+}
+.Shape2 {
+  display: flex;
+  position: absolute;
+  width: 1530px;
+  height: 606px;
+}
+.Book__Now {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  color: white;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 400px;
+  margin-left: 107px;
+  width: 165px;
+  height: 62px;
+  border-radius: 12px;
+  background-color: #eb662b;
+}
+.See__All__Tour {
+  display: flex;
+  position: absolute;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 14.3px;
+  font-weight: 400;
+  color: #05073c;
+  line-height: 28.13px;
+  letter-spacing: 0;
+  margin-left: 1295px;
+}
+.Popular_Things_Container {
+  display: flex;
+  width: 1320px;
+  height: 600px;
+  margin-top: 80px;
+  margin-left: 250px;
+}
+.Popular_Things_Text {
+  display: flex;
+  position: absolute;
+  font-family: Inter;
+  font-size: 29.88px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0;
+  color: #05073c;
+}
+.Cruises_Tour_container {
+  display: flex;
+  width: 300px;
+  height: 240px;
+  margin-top: 80px;
+  margin-right: 500px;
+}
+.Cruises_Tour {
+  display: flex;
+}
+.Museum__Tour {
+  display: flex;
+  position: absolute;
+  width: 300px;
+  height: 240px;
+  margin-top: 340px;
+  margin-right: 500px;
+}
+.Museum__Img {
+  display: flex;
+}
+.Beach__Tours {
+  display: flex;
+  position: absolute;
+  width: 410px;
+  height: 500px;
+  margin-top: 80px;
+  margin-left: 330px;
+  border-radius: 12px;
+}
+.Beach__Img {
+  display: flex;
+  width: 410px;
+  height: 500px;
+}
+.Beach__Image {
+  display: flex;
+  width: 410px;
+  height: 500px;
+  border-radius: 12px;
+}
+.City__Tours {
+  display: flex;
+  position: absolute;
+  width: 520px;
+  height: 240px;
+  margin-top: 80px;
+  margin-left: 765px;
+  border-radius: 12px;
+}
+.City__Img {
+  display: flex;
+  width: 520px;
+  height: 240px;
+}
+.city_Image {
+  display: flex;
+  width: 520px;
+  height: 240px;
+  border-radius: 12px;
+}
+.Food__Tours {
+  display: flex;
+  position: absolute;
+  width: 190px;
+  height: 240px;
+  margin-top: 339px;
+  margin-left: 765px;
+  border-radius: 12px;
+}
+.Food__Img {
+  display: flex;
+  width: 190px;
+  height: 240px;
+}
+.Food_Image {
+  display: flex;
+  width: 190px;
+  height: 240px;
+  border-radius: 12px;
+}
+.Hiking__Tours {
+  display: flex;
+  position: absolute;
+  width: 300px;
+  height: 240px;
+  margin-top: 339px;
+  margin-left: 990px;
+  border-radius: 12px;
+}
+.Hiking__Img {
+  display: flex;
+  width: 300px;
+  height: 240px;
+}
+.Hiking_Image {
+  display: flex;
+  width: 300px;
+  height: 240px;
+  border-radius: 12px;
+}
+.Top_Trending_Container {
+  width: 1530px;
+  height: 767px;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  margin-left: 120px;
+  margin-top: 100px;
+}
+.Top_Trending_Text {
+  display: flex;
+  padding-left: 130px;
+  padding-top: 130px;
+  font-family: Inter;
+  font-size: 29.41px;
+  color: #05073c;
+  line-height: 45px;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+.Top_Trending_Centiepede {
+  display: flex;
+  width: 300px;
+  height: 388px;
+  background-color: #ffffff;
+  margin-top: 30px;
+  margin-left: 200px;
+  border-radius: 12px;
+}
+.Top_Trending_Img {
+  display: flex;
+  width: 278px;
+  height: 198.56px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.Paris_France_Text {
+  display: flex;
+  position: absolute;
+  margin-top: 215px;
+  margin-left: 40px;
+  font-family: Inter;
+  font-size: 12.29px;
+  font-weight: 400;
+  line-height: 24.38px;
+  letter-spacing: 0;
+  color: #717171;
+}
+.Pars_France_Text1 {
+  display: flex;
+  position: absolute;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 15.88px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #05073c;
+  margin-top: 243px;
+  margin-left: 18px;
+}
+.Paris_France_Rating {
+  display: flex;
+  position: absolute;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24.38px;
+  letter-spacing: 0;
+  color: #05073c;
+  margin-top: 295px;
+  margin-left: 100px;
+}
+.Paris_France_Container {
+  display: flex;
+  position: absolute;
+  margin-top: 340px;
+  margin-left: 20px;
+  width: 258px;
+  height: 41px;
+  border-top: 1px solid #e7e6e6;
+}
+.Paris_France_Days {
+  font-family: Inter;
+  font-size: 12.59px;
+  font-weight: 500;
+  line-height: 24.38px;
+  letter-spacing: 0;
+  color: #05073c;
+  margin-left: 27px;
+  margin-top: 10px;
+}
+.Paris_France_From {
+  display: flex;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #05073c;
+  margin-top: 13px;
+  margin-left: 100px;
+}
+.Paris_France_Price1 {
+  display: flex;
+  font-family: Inter;
+  font-size: 14.5px;
+  line-height: 30px;
+  letter-spacing: 0;
+  font-weight: 500;
+  margin-top: 6px;
+  margin-left: 4px;
+}
+.Top_Trending_Centiepede1 {
+  display: flex;
+  z-index: 2;
+  width: 300px;
+  height: 388px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+.container1 {
+  display: flex;
+  position: absolute;
+  width: 300px;
+  height: 388px;
+  border-radius: 12px;
+  border: 1px solid #e7e6e6;
+  margin-left: 130px;
+  margin-top: 30px;
+}
+.container2 {
+  display: flex;
+  position: absolute;
+  width: 300px;
+  height: 388px;
+  margin-top: 30px;
+  margin-left: 450px;
+  border: 1px solid #e7e6e6;
+  border-radius: 12px;
+}
+.container3 {
+  display: flex;
+  position: absolute;
+  width: 300px;
+  height: 388px;
+  margin-top: 30px;
+  margin-left: 770px;
+  border: 1px solid #e7e6e6;
+  border-radius: 12px;
+}
+.container4 {
+  display: flex;
+  position: absolute;
+  width: 300px;
+  height: 388px;
+  margin-top: 30px;
+  margin-left: 1090px;
+  border: 1px solid #e7e6e6;
+  border-radius: 12px;
+}
+.reviews {
+  display: flex;
+  width: 1920px;
+  height: 871px;
+}
+.reviews_image {
+  display: flex;
+  width: 1920px;
+  height: 871px;
+}
+.Customer_reviews {
+  display: flex;
+  position: absolute;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 29.53px;
+  line-height: 45px;
+  letter-spacing: 0;
+  margin-left: 715px;
+  margin-top: 100px;
+}
+.reviews_image_face {
+  display: flex;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-left: 800px;
+  margin-top: 200px;
+}
+.Reviews_Service {
+  display: flex;
+  position: absolute;
+  font-family: Inter;
+  font-family: 17.58px;
+  font-weight: 500;
+  line-height: 33.75px;
+  letter-spacing: 0;
+  color: #eb662b;
+  margin-top: 370px;
+  margin-left: 780px;
+}
+.Reviews_Text {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 19.53px;
+  line-height: 37px;
+  letter-spacing: 0;
+  margin-top: 420px;
+  margin-left: 540px;
+}
+.Reviews_Author {
+  display: flex;
+  position: absolute;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 15.63px;
+  line-height: 25.6px;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: 550px;
+  margin-left: 800px;
+}
+.Get_5_off_container {
+  display: flex;
+  margin-left: 130px;
+  width: 1530px;
+  height: 514px;
+}
+.Phone_Other {
+  display: flex;
+  position: absolute;
+  width: 667px;
+  height: 500px;
+  margin-top: 15px;
+  margin-left: 740px;
+}
+.Get_5_Off_Text {
+  display: flex;
+  position: absolute;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 100px;
+  margin-left: 120px;
+}
+.Get_5_Off_Better {
+  display: flex;
+  position: absolute;
+  color: #ffffff;
+  font-family: inter;
+  font-size: 14.53px;
+  line-height: 28.13px;
+  font-weight: 300;
+  letter-spacing: 0;
+  margin-left: 120px;
+  margin-top: 210px;
+}
+.Get_Magic_Link {
+  display: flex;
+  position: absolute;
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 17.58px;
+  line-height: 33.75px;
+  letter-spacing: 0;
+  margin-left: 120px;
+  margin-top: 300px;
+  color: #ffffff;
+}
+.Email_Input {
+  display: flex;
+  outline: none;
+  position: absolute;
+  font-size: 15px;
+  width: 350px;
+  height: 60px;
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+  border: 0px;
+  margin-left: 120px;
+  margin-top: 350px;
+}
+.Email_Input::placeholder {
+}
+.Get_5_off_container input[type='text']{
+  padding-left: 20px;
+}
+.Send {
+  display: flex;
+  position: absolute;
+  color: #4a43c4;
+  font-family: Inter;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 107px;
+  height: 62px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin-top: 350px;
+  margin-left: 480px;
+}
+.Travel_Articles {
+  display: flex;
+  margin-left: 230px;
+  margin-top: 100px;
+  width: 1320px;
+  height: 529px;
+}
+.Travel_Articles_Text {
+  display: flex;
+  position: absolute;
+  font-family: Inter;
+  font-size: 29.65px;
+  font-weight: 700;
+  color: #05073c;
+  line-height: 45px;
+  padding: 10px;
+}
+.Kenya {
+  display: flex;
+  margin-top: 100px;
+  width: 409px;
+  height: 300px;
+}
+.Kenya_Data {
+  display: flex;
+  position: absolute;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 13.89px;
+  line-height: 18.2px;
+  letter-spacing: 0;
+  margin-top: 420px;
+  margin-right: 120px;
+}
+.Kenya_Text {
+  display: flex;
+  position: absolute;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 17.89px;
+  line-height: 27px;
+  letter-spacing: 0;
+  margin-top: 450px;
+  margin-right: 120px;
+}
+.Exploring {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 20px;
+  width: 409px;
+  height: 300px;
+}
+.Exploring_Data{
+  display: flex;
+  position: absolute;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 13.89px;
+  line-height: 18.2px;
+  letter-spacing: 0;
+  margin-top: 420px;
+  margin-left: 430px;
+}
+.Exploring_Text{
+  display: flex;
+  position: absolute;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 17.89px;
+  line-height: 27px;
+  letter-spacing: 0;
+  margin-top: 450px;
+  margin-left: 430px;
+}
+.IntoWild{
+  display: flex;
+  margin-top: 100px;
+  margin-left: 20px;
+  width: 409px;
+  height: 300px;;
+}
+.Into_Data{
+  display: flex;
+  position: absolute;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 13.89px;
+  line-height: 18.2px;
+  letter-spacing: 0;
+  margin-top: 420px;
+  margin-left: 860px;
+}
+.Into_Text{
+  display: flex;
+  position: absolute;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 17.89px;
+  line-height: 27px;
+  letter-spacing: 0;
+  margin-top: 450px;
+  margin-left: 860px;
+}
+.Footer{
+  display: flex;
+  position: absolute;
+  background-color: #fdf8ed;
+
+  width: 1800px;
+  height: 655px;
+}
+.Print_Footer{
+  display: flex;
+  position: absolute;
+  margin-bottom: 10px;
+}
+.Footer_nav{
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  font-family: inter;
+  font-size: 14.65px;
+  line-height: 28.13px;
+  letter-spacing: 0;
+  font-weight: 500;
+  color: #05073C;
+  text-decoration-color: #05073C;
+  text-decoration: none;
+  margin-top: 250px;
+  margin-left: 900px;
+}
+.Company{
+  font-family: inter;
+  font-weight: 500;
+  color: #05073C;
+  font-size: 20px;
+  line-height: 0;
+  padding-bottom: 20px;
+}
+.Support_nav{
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  margin-top: 30px;
+  font-family: inter;
+  font-size: 14.65px;
+  line-height: 28.13px;
+  letter-spacing: 0;
+  font-weight: 500;
+  color: #05073C;
+  text-decoration-color: #05073C;
+  text-decoration: none;
+  margin-top: 250px;
+  margin-left: 1150px;
+}
+.Support{
+  font-family: inter;
+  font-weight: 500;
+  color: #05073C;
+  font-size: 20px;
+  line-height: 0;
+  padding-bottom: 20px;
+}
+.NewsLetter{
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  margin-top: 30px;
+  font-family: inter;
+  font-size: 14.65px;
+  line-height: 28.13px;
+  letter-spacing: 0;
+  font-weight: 500;
+  color: #05073C;
+  text-decoration-color: #05073C;
+  text-decoration: none;
+  margin-top: 250px;
+  margin-left: 1400px;
+}
+.Newsletter_Text{
+  display: flex;
+  font-family: inter;
+  font-weight: 500;
+  color: #05073C;
+  font-size: 20px;
+  line-height: 0;
+  padding-bottom: 20px;
+}
+.Email_Addres_Input{
+  border-radius: 12px;
+  border: 0;
+  width: 300px;
+  height: 50px;
+}
+.Email_Addres_Input::placeholder{
+  padding-left: 30px;
+}
+.Send1{
+  display: flex;
+  position: absolute;
+  margin-top: 117px;
+  margin-left: 250px;
+}
+.Contact_Information{
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  margin-top: 30px;
+  font-family: inter;
+  font-size: 14.65px;
+  line-height: 28.13px;
+  letter-spacing: 0;
+  font-weight: 500;
+  color: #05073C;
+  text-decoration-color: #05073C;
+  text-decoration: none;
+  margin-top: 250px;
+  margin-left: 100px;
+}
+.Contact{
+  display: flex;
+  font-family: inter;
+  font-weight: 500;
+  color: #05073C;
+  font-size: 20px;
+  line-height: 0;
+  padding-bottom: 20px;
+}
+.Speak_To_Our_Container{
+  display: flex;
+  position: absolute;
+  width: 1600px;
+  height: 185px;
+  margin-left: 90px;
+  border-bottom: 1px solid #EB662B26;
+}
+.Speak_To_Our{
+  display: flex;
+  position: absolute;
+  font-family: inter;
+  font-weight: 500;
+  font-size: 19.69px;
+  line-height: 37.5px;
+  letter-spacing: 0;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+.Phone_Number{
+  color: #eb662b;
+}
+.slider__container{
+  width: 100vw;
+  margin: 12px auto;
+  overflow: hidden;
+  position: relative;
+  margin-top: 140px;
+}
+.slider {
+  display: flex;
+  cursor: grab;
+  user-select: none;
+  transition: transform 0.3s ease-out;
+}
+.slide {
+  min-width: 12.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.slide__image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.slide__name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.slide__role {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.bullets {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.bullet {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bullet.active {
+  background-color: #666;
+}
+
+.grabbing {
+  cursor: grabbing;
+}
+
+@media (max-width:1400px){
+  .slide{min-width: 16.666%;}
+}
+@media (max-width: 1024px) {
+  .slide {
+      min-width: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .slide {
+      min-width: 33.333%;
+  }
+}
+
+@media (max-width: 640px) {
+  .slide {
+      min-width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .slide {
+      min-width: 100%;
+  }
+}
+.Trending_Cont{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 300px;
+}
+.Trending_dest{
+  display: flex;
+  font-family: inter;
+}
+.Email_Cont{
+  display: flex;
+  position: absolute;
+  width: 300px;
+  height: 80px;
+}
+
